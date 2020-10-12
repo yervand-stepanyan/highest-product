@@ -6,7 +6,7 @@ export const useStyles = makeStyles({
     alignItems: 'center',
     flexDirection: 'column',
     maxHeight: '100vh',
-    padding: '50px 10px',
+    padding: '10px',
   },
   titleWrapper: {
     marginBottom: '10px',
@@ -25,5 +25,12 @@ export const useStyles = makeStyles({
   },
   buttonWrapper: {
     marginBottom: '20px',
+  },
+  listWrapper: {
+    textAlign: 'center',
+    marginBottom: '20px',
+  },
+  resultWrapper: {
+    textAlign: 'center',
   },
 });
