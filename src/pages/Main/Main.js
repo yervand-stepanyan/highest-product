@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Input from '../../components/Input';
+
 function Main() {
   const list = [1, 10, 2, 6, 5, 3];
 
@@ -18,7 +20,12 @@ function Main() {
     return 'Incorrect list of numbers';
   };
 
-  return <div>{highestProduct(list)}</div>;
+  return (
+    <div>
+      <Input />
+      <div>{highestProduct(list)}</div>
+    </div>
+  );
 }
 
 export default Main;
